@@ -1,47 +1,27 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" href="styles.css">
         <title>About Me</title>
-        <style>
-            * {
-                margin: 0;
-                padding: 0;
-                border: 0;
-                outline: 0;
-            }
-
-            .top-main {
-                background-color: aqua;
-                text-align:center;
-                padding: 30px;
-            }
-
-            .navigation {
-                width: 15%;
-                float: left;
-                background-color:bisque;
-            }
-
-            .main {
-                position:relative;
-                float: right;
-                top: 0;
-                width:85%;
-            }
-        </style>
     </head>
 
     <body>
-        <div class="top-main">
-            <h1>Christian Tielking</h1>
-        </div>
-
-        <div class="navigation">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Bio</a></li>
-                <li><a href="#">Contact</a></li>
+        <nav class="navbar">
+            <div class="brand">
+                AllMightyDev
+            </div>
+            <ul class="links-list">
+                <li><a href="#" class="links">Home</a></li>
+                <li><a href="#" class="links">Bio</a></li>
+                <li><a href="#" class="links">Projects</a></li>
+                <li><a href="#" class="links">Contact</a></li>
             </ul>
+        </nav>
+        <div class="top-main">
+            <div class="main-title">
+                <img class="headshot" src="me.jpg">
+                <h1 id="name">Christian Tielking<br>Web Developer</h1>
+            </div>
         </div>
 
         <div class="main">
