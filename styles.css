@@ -8,17 +8,6 @@
 body {
     background-color: black;
 }
-.top-main {
-    background-image: url(header-back.png);
-    background-repeat: no-repeat;
-    /*background-attachment: fixed;
-    background-size: cover;*/
-    text-align:center;
-    padding: 30px;
-}
-.navbar, .top-main {
-    color: white;
-}
 .main {
     position:relative;
     float: right;
@@ -27,20 +16,16 @@ body {
 }
 .navbar {
     padding:0px;
-    width: 100%;
-    float: left;
+    width: 100px;
+    height: 100vh;
     margin: 0;
-    justify-content: space-between;
-    display: flex;
+    color: white;
+    background-color: red;
 }
 .brand {
-    float: left;
     padding: 10px;
 }
 .links-list{
-    list-style: none;
-    display:flex;
-    
     padding: 10px;
     margin: 0;
 }
@@ -48,21 +33,4 @@ body {
     padding-left: 10px;
     text-decoration:none;
     color: white;
-}
-.headshot {
-    border-radius: 50%;
-    max-width: 200px;
-    max-height: 200px;
-}
-.main-title {
-    width: 25%;
-    height: auto;
-    margin: 0 auto;
-    padding: 10px;
-    position: relative;
-    display: flex;
-}
-#name {
-    padding-top: 10%;
-    padding-left: 1%;
 }
