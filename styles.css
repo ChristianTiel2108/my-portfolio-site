@@ -6,7 +6,7 @@
     outline: 0;
 }
 body {
-    background-color: black;
+    background-color: #fffffc;
 }
 .main {
     position:relative;
@@ -15,12 +15,11 @@ body {
     width:85%;
 }
 .navbar {
-    padding:0px;
     width: 100px;
     height: 100vh;
     margin: 0;
     color: white;
-    background-color: red;
+    background-color: #011638;
 }
 .brand {
     padding: 10px;
@@ -30,7 +29,9 @@ body {
     margin: 0;
 }
 .links {
-    padding-left: 10px;
     text-decoration:none;
     color: white;
+}
+.links-list li {
+    padding-top: 30px;
 }
